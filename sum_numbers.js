@@ -1,7 +1,7 @@
 function sum_numbers(n){
-	var x = 0;
+	var sum = 0;
 	for (var i = 1;  i <= n; i++) {
-		x = x+ i;
+		sum = sum+ i;
 	}
-	return x;
+	return sum;
 }

@@ -1,24 +1,24 @@
-TestMyCode.run("testing hello  function", function(assert){
+TestMyCode.run("testing hello_function", function(assert){
     var result = hello();
     // is the result as we expected?
-    assert.equals("hello", result, "testing hello function");
+    assert.equals("hello", result, "testing hello_function");
 });
 TestMyCode.run("testing hello_uppercase  function", function(assert){
-    var result = hello_uppercase();
+    var result = hello_uppercase("Thandokazi");
     // is the result as we expected?
-    assert.equals("Hello!", result, "testing hello_uppercase function");
+    assert.equals("Hello, THANDOKAZI!", result, "testing hello_uppercase function");
 });
-TestMyCode.run("testing hello_joe  function when Joe is true", function(assert){
+TestMyCode.run("testing hello_joe  function for Joe", function(assert){
     var result = hello_joe("Joe");
     // is the result as we expected?
     assert.equals("Hello!", result, "testing hello_joe function");
 });
-TestMyCode.run("testing hello_joe  function when both are failing", function(assert){
+TestMyCode.run("testing hello_joe  function for  Thandokazi", function(assert){
     var result = hello_joe("Thandokazi");
     // is the result as we expected?
     assert.equals("Hello Thandokazi!", result, "testing hello_joe function");
 });
-    TestMyCode.run("testing hello_joe  function when Bob is true", function(assert){
+    TestMyCode.run("testing hello_joe  function for Bob", function(assert){
      var result = hello_joe("Bob");
     // is the result as we expected?
     assert.equals("Hello!", result, "testing hello_joe function");
