@@ -34,3 +34,7 @@ QUnit.test("testing reverse function", function(assert){
     // is the result as we expected?
     assert.equal(reverse("Hello you!"));
 });
+QUnit.test("hello_list function", function(assert){
+    // is the result as we expected?
+    assert.equal(hello_list(2), "hello world,hello world");
+});
