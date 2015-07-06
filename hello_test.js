@@ -34,6 +34,7 @@ QUnit.test("testing reverse function", function(assert){
     // is the result as we expected?
     assert.equal(reverse("Hello you!"));
 });
+
 QUnit.test("hello_list function", function(assert){
     // is the result as we expected?
     assert.equal(hello_list(2), "hello world,hello world");
@@ -44,5 +45,6 @@ QUnit.test("high_low function", function(assert){
     var array = [1,2,3,4,5];
     var result = "max =5min =1";
    deepEqual(high_low(array),result);
+});
 
 
