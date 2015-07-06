@@ -18,6 +18,7 @@ QUnit.test("testing number_list  function", function(assert){
     // is the result as we expected?
     assert.equal(number_list(5), [1,2,3,4,5].toString());
 });
+
 QUnit.test("testing sum_numbers  function", function(assert){
     // is the result as we expected?
     assert.equal(sum_numbers(5),15);
@@ -46,5 +47,10 @@ QUnit.test("high_low function", function(assert){
     var result = "max =5min =1";
    deepEqual(high_low(array),result);
 });
+QUnit.test("count_words function", function(assert){
+    // is the result as we expected?
+    assert.equal(count_words("hello world"),2);
+});
+
 
 

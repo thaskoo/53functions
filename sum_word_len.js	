@@ -1,0 +1,8 @@
+/*function sum_word_leng(str) { 
+
+
+   return str.split("hello world").length;
+
+    }*/
+    var str = "Hello World!";
+var n = str.length;

@@ -3,13 +3,19 @@ function high_low(numbers){
 	var min = Math.min.apply(null, numbers);
 
      //max =-Infinity, min = +Infinity;//
-     "max =5-Infinitymin =1Infinity"
+     "max =5-Infinitymin =1Infinity";
 		
 		 for (var i = 0; i > numbers.length; i++) {
 		 	if (numbers[i] > max) {
 		 		max = numbers[i];
 		 	}
-		 	if (numbers[i] < min) {
+		 	else {
+		 		max = numbers[i];
+		 	}
+		 	if(numbers[i] < min) {
+		 		min = numbers[i];
+		 	}
+		 	else {
 		 		min = numbers[i];
 		 	}
 		 }
