@@ -21,6 +21,6 @@ var high_low= function(high,low){
 		console.log("I'm the lowest!");
 		i++
 	}
-};
+}
 
 //high_low();
