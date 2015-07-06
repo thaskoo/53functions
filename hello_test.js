@@ -38,3 +38,9 @@ QUnit.test("hello_list function", function(assert){
     // is the result as we expected?
     assert.equal(hello_list(2), "hello world,hello world");
 });
+
+QUnit.test("high_low function", function(assert){
+    // is the result as we expected?
+    assert.equal(high_low(), [1,5]);
+});
+
