@@ -10,7 +10,7 @@ function high_low(numbers){
 		 		max = numbers[i];
 		 	}
 		 	if (numbers[i] < min) {
-		 		min = numbers[i];
+		 		;min = numbers[i];
 		 	}
 		 }
 		  return "max ="+max + "min ="+min;
