@@ -44,5 +44,5 @@ QUnit.test("high_low function", function(assert){
     var array = [1,2,3,4,5];
     var result = "max =5min =1";
    deepEqual(high_low(array),result);
-});
+
 
