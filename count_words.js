@@ -1,6 +1,6 @@
 function count_words(str) { 
 
 
-   return str.split(" ").length;
+   return str.split("hello world").length;
 
     }

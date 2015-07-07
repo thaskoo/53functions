@@ -48,7 +48,7 @@ QUnit.test("high_low function", function(assert){
    deepEqual(high_low(array),result);
 });
 QUnit.test("count_words function", function(assert){
-    // is the result as we expected?
+     // is the result as we expected?
     assert.equal(count_words("hello world"),2);
 });
 
