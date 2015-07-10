@@ -60,4 +60,9 @@ QUnit.test("longest_word function", function(assert){
      var result = longest_word("good morning");
     assert.deepEqual(result,["morning", 7]);
 });
+QUnit.test("shortest_word function", function(assert){
+     // is the result as we expected?
+     var result = shortest_word("morning south africans");
+    assert.deepEqual(result,["south",5]);
+});
 
