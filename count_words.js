@@ -1,6 +1,6 @@
-function count_words(str) { 
+function count_words(sentence) { 
 
 
-   return str.split("hello world").length;
+   return sentence.split(" ").length;
 
     }

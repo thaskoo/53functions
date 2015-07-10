@@ -51,6 +51,13 @@ QUnit.test("count_words function", function(assert){
      // is the result as we expected?
     assert.equal(count_words("hello world"),2);
 });
-
-
+QUnit.test("sum_word_len function", function(assert){
+     // is the result as we expected?
+    assert.equal(sum_word_len("hello world"),11);
+});
+QUnit.test("longest_word function", function(assert){
+     // is the result as we expected?
+     var result = longest_word("good morning");
+    assert.deepEqual(result,["morning", 7]);
+});
 
