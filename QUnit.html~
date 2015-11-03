@@ -25,8 +25,6 @@
 <script src="shortest_word.js"></script>
 <script src="word_length.js"></script>
 <script src="avg.js"></script>
-<script src="start.js"></script>
-<script src="end.js"></script>
 <script src="hello_test.js"></script>
 
 </body>

@@ -86,10 +86,3 @@ QUnit.test("start function", function(assert){
 
     assert.equal(array,"Home");
 });
-QUnit.test("end function", function(assert){
-     // is the result as we expected?
-     //var result = []
-     var array = ["Edit"];
-
-    assert.equal(array,"Edit");
-});
