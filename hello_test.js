@@ -93,3 +93,10 @@ QUnit.test("end function", function(assert){
 
     assert.equal(array,"Edit");
 });
+QUnit.test("occurs_most function", function(assert){
+     // is the result as we expected?
+     var result = []
+     var array = ["HomeLanguage"];
+
+    assert.equal(array,"HomeLanguage");
+});
